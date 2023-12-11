@@ -1,0 +1,215 @@
+:root{
+	--color-contenido:#808080;
+	--color-titulos:#222;
+	--color-primary:#222;
+	--color-negro:#000;
+	--fondo-gris:#f4f4f4;
+}
+
+body {
+    font-family: arial, sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+	image-orientation: left;
+    text-align: center;
+    padding: 10px;
+}
+
+#Hero{
+	background-color: #1D1C1C;
+	text-align: left;
+	color: #FFFFFF;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#Hero{
+	text-align: center
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+
+ #title {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+}
+
+#intro {
+            padding: 20px;
+            margin: 20px 0;
+}
+
+#intro img {
+            max-width: 100%;
+            height: auto;
+}
+
+#mission, #vision, #values {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin: 20px 0;
+			color: #000000;
+}
+h2 {
+            margin-bottom: 10px;
+}
+
+
+#hero-slides {
+padding: 40px;
+}
+
+#hero-title .subtitulo,
+#hero-slides .subtitulo{
+	color: #fff;
+}
+#hero-title h1,
+#hero-slides h1{
+	font-size: 65px;
+	color: #fff;
+	font-weight: 200;
+}
+#hero-title p,
+#hero-slides p{
+	color: #fff;
+	font-size: 20px;
+	padding: 0 20%;
+}
+
+
+#list-contact i{
+	color: var(--color-primary);
+	font-size: 16px;
+	margin-right: 20px;
+}
+#list-contact{
+	margin: 40px 10px;
+}
+
+#list-follow a{
+	font-size: 16px;
+	background-color: #a3a7a7;
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#list-follow a:hover{
+	background-color: var(--color-primary);
+}
+
+#contact input,
+#contact textarea{
+	border-radius: 0;
+}
+#contact input::placeholder,
+#contact textarea::placeholder{
+	color: #aaa;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+
+footer{
+	background-color:#212121;
+	color: #F7F7F7;
+}
+
+footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid var(--color-primary) !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: var(--color-primary);
+    border: 0 !important;
+}
+.app-carousel img{
+	width: inherit !important;
+	margin: auto;
+}
